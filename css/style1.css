@@ -1,0 +1,169 @@
+/*header*/
+header {
+	width: 100%;
+	position: fixed;/*for fixed header*/
+  background-color:white;
+	height: 60px;
+	margin: 0px;
+  font-family:'Oswald';
+}
+
+header img {
+	width: 100px;
+	height: 100%;
+	display: inline-block;
+	margin-left: 15%;
+	margin-bottom: 50px;
+}
+/*font for nav tag*/
+header nav {
+	height: 100%;
+	display: inline-block;/* align block elements*/
+}
+header nav ul{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header nav ul li{
+	 float: left;
+}
+header nav ul li a:hover{
+	 color: #f00;
+}
+header nav ul li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	margin-left: 80px;/* aligning nav content*/
+	text-decoration: none;
+}
+nav h3{
+	margin-top: 10px;
+	color:white;
+}
+
+/*this for another nav which is not fixed*/
+.clearfix{
+	background-color: #ebece7;
+	background-image: url('../images/index1.jpg');
+
+}
+.mycontainer{
+	margin-top: 60px;
+}
+
+.mycontainer nav{
+	background-color:#69bd43;
+	width: 100%;
+	display: inline-block;/* align block elements*/
+}
+.mycontainer nav ul{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.mycontainer nav ul a{
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-left: 80px;/* aligning nav content*/
+  text-decoration: none;
+}
+.mycontainer nav ul li{
+	 float: left;
+}
+/*setting a image in particular size*/
+.container_12 figure {
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	margin: 5px;
+	border: 1.5px solid #228B22;
+	padding: 0px;
+	overflow:hidden
+}
+.container_12 h1{
+	text-align: center;
+	font-size: 20px;
+	height: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	color: #006400;
+}
+.container_12 span{
+	font-style: italic;
+
+}
+
+.container_12 figure img{
+	height: 180px;
+	width: 95%;
+	margin: 5px;
+}
+.container_12 figure figcaption{
+	background-color: #69bd43;
+	height: 30px;
+	width: 100%;
+	margin-top: 0px;
+	font-size: 20px;
+
+}
+.grid_3 img {
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+  margin: 0 auto;
+}
+.grid_3 img:hover{
+	opacity: 0.5;
+}
+.grid_12 img{
+	width:915px;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 20px;
+}
+.section1{
+	margin-top: 20px;
+}
+
+/*footer alignment*/
+footer {
+	background-color: #69bd43 ;
+	height: 100px;
+	width:100%;
+}
+footer p{
+	margin-top: 5px;
+	font-family: 'Oswald';
+	text-align: center;
+}
+.section1 marquee{
+ 	color:red;
+ 	font-size: 30px;
+}
+/*styling socialicons*/
+.fa-facebook-square{
+	font-size: 25px;
+	color: #3b5998;
+}
+.fa-twitter-square{
+	font-size: 25px;
+	color: #0084b4
+}
+.fa-pinterest-square{
+	font-size: 25px;
+	color: #C92228
+}
+.fa-youtube{
+	font-size: 25px;
+	color: #bb0000
+}

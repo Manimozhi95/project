@@ -1,0 +1,136 @@
+/*header*/
+header {
+	width: 100%;
+	position: fixed;/*for fixed header*/
+  background-color: #69bd43;
+	height: 60px;
+	margin: 0px;
+	font-family:'Oswald';
+}
+
+/*for fixing an logo in header*/
+header img {
+	width: 100px;
+	height: 100%;
+	display: inline-block;
+	margin-left: 15%;
+	margin-bottom: 50px;
+}
+
+/*font for nav tag*/
+header nav {
+	height: 100%;
+	display: inline-block;/* align block elements*/
+}
+
+
+header nav ul{
+	list-style-type: none;/*for removing bullets in unordered list*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+
+header nav ul li{
+	 float: left;
+}
+
+header nav ul li a:hover{
+	 color: #f00;
+}
+
+header nav ul li a{
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-left: 80px;/* aligning nav content*/
+  text-decoration: none;
+}
+
+.grid_12 figcaption {
+	text-align: center;
+	font-size: 25px;
+	color: #015852;
+}
+
+figure {
+	width: 100%;
+}
+
+
+/*to align the article tag element to justify*/
+article {
+	text-align: justify;
+
+}
+/*footer*/
+
+footer {
+	background-color: #69bd43 ;
+	height: 100px;
+	width:100%;
+}
+footer p{
+	text-align: center;
+	font-family: 'Oswald';
+	margin-top: 5px;
+}
+.my_container{
+	 margin-top: 80px;/* to avoid collapase of content with header*/
+}
+/*Adding google font using font family*/
+.grid_4{
+	font-family: 'Oswald';
+}
+
+#section2{
+	font-family: 'Oswald'
+}
+
+#section3{
+	font-family: 'Oswald'
+}
+.grid_6 img{
+	width: 100%;
+	height:310px;
+}
+.grid_4 img{
+	width: 300px;
+	height:300px;
+}
+.container_12 article p{
+	margin-top: 10px;
+}
+.clearfix{
+	background-color: #ebece7;
+	background:url('../images/background.jpg') no-repeat fixed;
+	background-size:cover;
+}
+.container_12 h4{
+	text-align: center;
+	margin-top: 8px;
+	color:#015852;
+}
+/*styling socialicons*/
+.fa-facebook-square{
+	font-size: 25px;
+	color:#3b5998;
+}
+.fa-twitter-square{
+	font-size:25px;
+	color:#0084b4
+}
+.fa-pinterest-square{
+	font-size:25px;
+	color:#C92228
+}
+.fa-youtube{
+	font-size:25px;
+	color:#bb0000
+}
+
+#next{
+	color:white;
+	font-weight:bold;
+}
